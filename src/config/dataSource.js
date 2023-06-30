@@ -9,9 +9,6 @@ const fileURL = import.meta.url;
 const filePath = fileURLToPath(fileURL);
 const dirPath = dirname(filePath);
 
-console.log(String(process.env.DB_PASSWORD.toString()));
-console.log(String(process.env.DB_USER));
-
 const dataSource = new typeorm.DataSource({
 	type: 'postgres',
 	host: process.env.DB_HOST || 'localhost',
