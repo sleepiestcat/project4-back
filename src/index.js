@@ -33,7 +33,7 @@ const loadExpressApp = async () => {
 
 	return app;
 };
-// 커밋 확인!
+// 커밋 확인용입니다..!
 const startServer = async () => {
 	const app = await loadExpressApp();
 
